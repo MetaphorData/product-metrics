@@ -1,4 +1,4 @@
-# test-metaphor
+# Product Metrics: Event Property Mapping
 
 This repository contains a guide to processing a table describing usage metrics for the [Metaphor](https://metaphor.io) platform.
 
