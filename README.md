@@ -11,6 +11,7 @@ Column descriptions can be found in Snowflake itself. Some columns, however, are
 ### Recommended workflow
 1. Identify the relevant type of event and its corresponding EVENT_TYPE in the table below
 2. Select the relevant properties in the second column that correspond to the key in events_<customer_id> 
+
    Note: There are repetitions in the properties column, as more than one event-action may have a particular property
    See after table for example select queries
 
