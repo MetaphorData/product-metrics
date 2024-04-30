@@ -87,5 +87,5 @@ select
 from metaphor_metaphor.knowledge_cards d
 	left join TagsWithNames tn on d.id = tn.d_id
 	left join FollowersWithEmails fe on d.id = fe.d_id
-  left join AssetContactInfo aci on d.id = aci.d_id
-  left join CreatorEmail ce on d.id = ce.d_id;
+	left join AssetContactInfo aci on d.id = aci.d_id
+	left join CreatorEmail ce on d.id = ce.d_id;
