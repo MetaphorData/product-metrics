@@ -1,21 +1,22 @@
-# Product Metrics: Event Property Mapping
+# Product Metrics
 
+## Amplitude: Event Property Mapping
 This repository contains a guide to processing a table describing usage metrics for the [Metaphor](https://metaphor.io) platform.
 
-## Accessing Data
+### Accessing Data
 The table can be accessed via Snowflake. Metaphor customers are given permissions to a private view. The table name is events_<customer_id> e.g. events_metaphor.
 
-## Processing Data
+### Processing Data
 Column descriptions can be found in Snowflake itself. Some columns, however, are event properties corresponding to specific EVENT_TYPEs. The following table aims to help identify the relevant columns for a given EVENT_TYPE.
 
-### Recommended workflow
+#### Recommended workflow
 1. Identify the relevant type of event and its corresponding EVENT_TYPE in the table below
 2. Select the relevant properties in the second column that correspond to the key in events_<customer_id> 
 
    Note: There are repetitions in the properties column, as more than one event-action may have a particular property
    See after table for example select queries
 
-### Properties for all event types
+#### Properties for all event types
 Each event property type contains the following fields: 
 | Property Name  | Property Description                                 | Sample Values                                     |
 | -------------- | ---------------------------------------------------- | ------------------------------------------------- |
@@ -219,7 +220,7 @@ Each event property type contains the following fields:
 
 </details>
 
-### Example Queries
+#### Example Queries
 Selecting all columns
 ```shell
 SELECT *
