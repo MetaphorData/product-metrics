@@ -1,15 +1,14 @@
 # Product Metrics
 
 ## Links to Metadata Warehouse SQL Queries
--- replace to snowflake
 The following links are to SQL queries that access Snowflake metadata warehouse, cleaning up their respective tables and making columns easier to parse.
 
-Tables:
-- [Datasets](https://github.com/MetaphorData/product-metrics/blob/main/datasets%20expanded.sql)
-- [Dashboards](https://github.com/MetaphorData/product-metrics/blob/main/dashboards_expanded.sql)
-- [Virtual Views](https://github.com/MetaphorData/product-metrics/blob/main/virtual_views%20expanded.sql)
-- [Users](https://github.com/MetaphorData/product-metrics/blob/main/users%20expanded.sql)
-- [Knowledge Cards](https://github.com/MetaphorData/product-metrics/blob/main/knowledge_cards%20expanded.sql)
+Snowflake Tables:
+- [Datasets](https://github.com/MetaphorData/product-metrics/blob/main/datasets_snowflake.sql)
+- [Dashboards](https://github.com/MetaphorData/product-metrics/blob/main/dashboards_snowflake.sql)
+- [Virtual Views](https://github.com/MetaphorData/product-metrics/blob/main/virtual_views_snowflake.sql)
+- [Users](https://github.com/MetaphorData/product-metrics/blob/main/users_snowflake.sql)
+- [Knowledge Cards](https://github.com/MetaphorData/product-metrics/blob/main/knowledge_cards_snowflake.sql)
 
 
 ## Amplitude: Event Property Mapping
