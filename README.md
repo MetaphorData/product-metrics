@@ -1,6 +1,7 @@
 # Product Metrics
 
 ## Links to Metadata Warehouse SQL Queries
+-- replace to snowflake
 The following links are to SQL queries that access the Athena QA metadata warehouse, cleaning up their respective tables and making columns easier to parse.
 
 Tables:
@@ -27,7 +28,7 @@ Column descriptions can be found in Snowflake itself. Some columns, however, are
    Note: There are repetitions in the properties column, as more than one event-action may have a particular property
    See after table for example select queries
 
-#### Properties for all event types
+### Properties for all event types
 Each event property type contains the following fields: 
 | Property Name  | Property Description                                 | Sample Values                                     |
 | -------------- | ---------------------------------------------------- | ------------------------------------------------- |
