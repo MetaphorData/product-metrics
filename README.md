@@ -2,7 +2,7 @@
 
 ## Links to Metadata Warehouse SQL Queries
 -- replace to snowflake
-The following links are to SQL queries that access the Athena QA metadata warehouse, cleaning up their respective tables and making columns easier to parse.
+The following links are to SQL queries that access Snowflake metadata warehouse, cleaning up their respective tables and making columns easier to parse.
 
 Tables:
 - [Datasets](https://github.com/MetaphorData/product-metrics/blob/main/datasets%20expanded.sql)
