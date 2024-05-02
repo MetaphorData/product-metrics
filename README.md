@@ -4,11 +4,11 @@
 The following links are to SQL queries that access the Athena QA metadata warehouse, cleaning up their respective tables and making columns easier to parse.
 
 Tables:
-- [Datasets] (https://github.com/MetaphorData/product-metrics/blob/main/datasets%20expanded.sql)
-- [Dashboards] (https://github.com/MetaphorData/product-metrics/blob/main/dashboards_expanded.sql)
-- [Virtual Views] (https://github.com/MetaphorData/product-metrics/blob/main/virtual_views%20expanded.sql)
-- [Users] (https://github.com/MetaphorData/product-metrics/blob/main/users%20expanded.sql)
-- [Knowledge Cards] (https://github.com/MetaphorData/product-metrics/blob/main/knowledge_cards%20expanded.sql)
+- [Datasets](https://github.com/MetaphorData/product-metrics/blob/main/datasets%20expanded.sql)
+- [Dashboards](https://github.com/MetaphorData/product-metrics/blob/main/dashboards_expanded.sql)
+- [Virtual Views](https://github.com/MetaphorData/product-metrics/blob/main/virtual_views%20expanded.sql)
+- [Users](https://github.com/MetaphorData/product-metrics/blob/main/users%20expanded.sql)
+- [Knowledge Cards](https://github.com/MetaphorData/product-metrics/blob/main/knowledge_cards%20expanded.sql)
 
 
 ## Amplitude: Event Property Mapping
